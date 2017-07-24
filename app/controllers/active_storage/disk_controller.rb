@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This controller is a wrapper around local file downloading. It allows you to
 # make abstraction of the URL generation logic and to serve files with expiry
 # if you are using the +Disk+ service.

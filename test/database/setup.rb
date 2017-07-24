@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "active_storage/migration"
 require_relative "create_users_migration"
 

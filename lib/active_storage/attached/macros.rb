@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module ActiveStorage::Attached::Macros
   # Specifies the relation between a single attachment and the model.
   #

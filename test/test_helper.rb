@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 $LOAD_PATH << File.expand_path("../../app/controllers", __FILE__)
 $LOAD_PATH << File.expand_path("../../app/models", __FILE__)
 $LOAD_PATH << File.expand_path("../../app/jobs", __FILE__)
@@ -55,7 +57,7 @@ class ActionController::TestCase
   Routes = ActionDispatch::Routing::RouteSet.new.tap do |routes|
     routes.draw do
       # FIXME: Hacky way to avoid having to instantiate the real engine
-      eval(File.readlines(File.expand_path("../../config/routes.rb", __FILE__)).slice(1..-2).join("\n"))
+      eval(File.readlines(File.expand_path("../../config/routes.rb", __FILE__)).slice(3..-2).join("\n"))
     end
   end
 end

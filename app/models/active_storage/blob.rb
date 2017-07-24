@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "active_storage/service"
 require "active_storage/filename"
 require "active_storage/purge_job"

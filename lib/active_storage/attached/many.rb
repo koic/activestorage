@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Representation of multiple attachments to a model.
 class ActiveStorage::Attached::Many < ActiveStorage::Attached
   delegate_missing_to :attachments

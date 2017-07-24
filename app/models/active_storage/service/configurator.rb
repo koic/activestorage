@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ActiveStorage::Service::Configurator #:nodoc:
   attr_reader :configurations
 

@@ -16,6 +16,9 @@ Layout/CaseIndentation:
 Layout/CommentIndentation:
   Enabled: true
 
+Layout/EmptyLineAfterMagicComment:
+  Enabled: true
+
 # No extra empty lines.
 Layout/EmptyLines:
   Enabled: false
@@ -104,6 +107,10 @@ Style/HashSyntax:
 # Defining a method with parameters needs parentheses.
 Style/MethodDefParentheses:
   Enabled: true
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  EnforcedStyle: always
 
 # Check quotes usage according to lint rule below.
 Style/StringLiterals:

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "active_storage/variant"
 
 class ActiveStorage::VariantsController < ActionController::Base

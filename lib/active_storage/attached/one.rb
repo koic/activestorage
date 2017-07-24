@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Representation of a single attachment to a model.
 class ActiveStorage::Attached::One < ActiveStorage::Attached
   delegate_missing_to :attachment

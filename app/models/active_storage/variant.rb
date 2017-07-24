@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "active_storage/blob"
 
 # Image blobs can have variants that are the result of a set of transformations applied to the original.

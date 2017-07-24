@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 require "active_support/log_subscriber"
 
 class ActiveStorage::LogSubscriber < ActiveSupport::LogSubscriber
   def service_upload(event)
     message = "Uploaded file to key: #{key_in(event)}"
-    message << " (checksum: #{event.payload[:checksum]})" if event.payload[:checksum]
+    message.dup << " (checksum: #{event.payload[:checksum]})" if event.payload[:checksum]
     info event, color(message, GREEN)
   end
 

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "active_storage/log_subscriber"
 
 # Abstract class serving as an interface for concrete services.

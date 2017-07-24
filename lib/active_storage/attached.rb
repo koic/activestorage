@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "active_storage/blob"
 require "active_storage/attachment"
 
